@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChatGenius</title>
+    <link rel="stylesheet" href="static/style.css">
+</head>
+<body>
+    <div class="sidebar"></div>
+    <div class="main-content">
+        <div class="channel-header">
+            <div class="channel-name"># general</div>
+        </div>
+        <div class="messages-container">
+            <div class="message">
+                <div class="message-avatar">JD</div>
+                <div class="message-content">
+                    <div class="message-header">
+                        <span class="message-sender">John Doe</span>
+                        <span class="message-time">11:30 AM</span>
+                    </div>
+                    <div class="message-text">
+                        Hello everyone! Welcome to our new Slack workspace.
+                    </div>
+                </div>
+            </div>
+            <div class="message">
+                <div class="message-avatar purple">JS</div>
+                <div class="message-content">
+                    <div class="message-header">
+                        <span class="message-sender">Jane Smith</span>
+                        <span class="message-time">11:32 AM</span>
+                    </div>
+                    <div class="message-text">
+                        Hi John! Thanks for setting this up.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="message-input-container">
+            <textarea class="message-input" placeholder="Message #general"></textarea>
+        </div>
+    </div>
+    <script src="static/utils.js"></script>
+    <script type="module" src="static/client.js"></script>
+</body>
+</html> 

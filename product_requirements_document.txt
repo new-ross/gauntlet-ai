@@ -1,0 +1,19 @@
+Project Requirements Document for Slack Clone with AI Integration
+
+Project Overview:
+
+Our project is about creating a Slack clone with a set of features that matches Slack's functionality precisely. The core purpose is to replicate Slack in both appearance and function so that it can serve as a foundation for enhancing workplace communication through innovative AI features. We're tackling this challenge as part of an AI bootcamp, with the first phase focusing purely on replicating Slack and its features, such as real-time messaging, organized channels and direct messages (DMs), file sharing, emoji reactions, thread support, and user presence indicators. This clone will be exactly indistinguishable from Slack with zero deviation in the UI.
+
+UI Features:
+- Sidebar with channels and direct messages
+- List of channels
+- List of direct messages
+- Main content area with messages and file uploads
+- Message input area with emoji picker and file upload button
+- Emoji picker with a list of popular emojis
+- File upload button with a file input dialog
+
+API Routes:
+- get channels
+- get messages for a channel
+- post a message to a channel
